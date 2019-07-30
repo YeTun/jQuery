@@ -1,0 +1,25 @@
+Methods and Functions
+===================== 
+ready()   -- Wait until page is loaded
+hide()    -- Hides an element
+click()   -- Creates a "click" JavaScript event
+css()     -- Style your page with the CSS method
+html()    -- update content - text and html tags
+text()    -- update content - text only
+fadeOut() -- Fade out an element.
+             Use milliseconds for value - fadeOut("20000");
+             not support jquery-3.4.1.slim.js
+
+Basic Selectors
+Basic Filters
+Content Filters
+Child Filters
+
+Chaining Methods
+================
+$("#left").css("color", "red");
+$("#left").css("border", "solid 2px blue");
+$("#left").fadeOut("20000");
+
+$("#left").css("color", "red").css("border", "solid 2px blue").fadeOut("20000");
+ 

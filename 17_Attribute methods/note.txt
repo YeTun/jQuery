@@ -1,0 +1,15 @@
+Methods and Functions
+===================== 
+attr()
+removeAttr()
+addClass()
+removeClass()
+.css()
+
+$("img").attr("src" , "caesar2.png");
+
+$("img").attr("src", "../images/PuKywe.jpg");
+
+$("img").removeAttr("src");
+
+$("div").remove();

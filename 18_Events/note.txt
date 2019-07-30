@@ -1,0 +1,32 @@
+Events
+------
+ready()
+load()
+
+on()
+click()
+hover()
+submit()
+
+1. Select element
+2. Add event method
+3. Add the code for the action 
+
+$(function() {         
+        $("img").mouseover(function() {                   
+            $("p").text("All hail Julius Caesar");
+    });
+});
+ 
+$(function() {
+        $("button").mouseover(function() {        
+        $("button").css("color", "red");
+    });
+});
+ 
+
+$(function() {
+        $("img").mouseover(function() {        
+        $("#right").append("<p>HEY you just hovered over Julius</p>");
+    });
+});

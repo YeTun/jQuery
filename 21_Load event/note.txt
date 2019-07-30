@@ -1,0 +1,14 @@
+JQuery ready executes when HTML-Document is loaded and DOM is ready (earliest possible)
+Load executes when complete page is fully loaded, including all frames, objects and images
+
+// jquery-1.12.4.js or jquery-2.2.4.js
+$(function () {
+        $("img").load(function () {
+            alert("the Caesar image has loaded");
+});
+
+$(window).load(function()
+    
+// jquery-3.4.1.js
+$("img").on("load", function () {
+    alert("the image has been loaded");

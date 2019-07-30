@@ -1,0 +1,29 @@
+Effects and Animation
+---------------------
+show()
+hide()
+toggle()
+
+
+1. Select element
+2. Add event method
+3. Add the code for the action
+
+$(function () {
+        $("#right").hover(function() {
+        $("div").css("background-color", "yellow");
+        },
+        function() {
+            $("div").css("background-color", "grey");
+        });
+    });
+
+$(function () {
+        $("#right").hover(function() {
+        $("img").show();
+        },
+        function() {
+            $("img").hide();
+        });
+    });
+

@@ -1,0 +1,21 @@
+Methods and Functions
+===================== 
+ready() -- Wait until page is loaded
+hide()  -- Hides an element
+click() -- Creates a "click" JavaScript event
+
+Basic Selectors
+Basic Filters
+Content Filters
+Child Filters
+
+CSS Methods
+========= 
+$("#left").css("color", "blue");
+$("#left").css("border", "solid 2px red");
+
+$("#left").css({
+    "border": "solid 2px red",
+    "background-color": "black",
+    "color": "blue"
+    });

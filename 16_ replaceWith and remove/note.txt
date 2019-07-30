@@ -1,0 +1,12 @@
+Elements Method
+----------------
+remove()
+replaceWith()
+
+
+$("p").replaceWith("<p>new paragraphs everywhere</p>");
+$("#right p").replaceWith("<p>you just clicked a button</p>");
+
+
+$("#right").remove();
+$("div").remove();

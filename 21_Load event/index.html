@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial 21</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left">
+        <h2>This is a heading</h2>
+        <p class="para2">This is FIRST paragraph</p>
+        <p>This is Second paragraph</p>
+    </div>
+
+    <div id="center">
+        <ul>
+            <li>Bobcats</li>
+            <li>Wildcats</li>
+        </ul>
+    </div>
+
+    <div id="right">
+        <p>This area will contain the <b>right content</b> area.</p>
+        <img src="../images/caesar.png" width='50%'>
+    </div>
+
+    <script src="../references/jquery-1.12.4.js"></script>
+    <script>        
+        $("img").load(function () {
+            alert("the Caesar image has been loaded");
+        });        
+        
+        // $("img").on("load", function () {
+        //     alert("the image has been loaded");
+        // });
+    </script>
+</body>
+<!-- 
+    Name:           Ye Tun Aung
+    Email:          yta.megroup@gmail.com
+    Project:        Chapter 07
+    Description:    Look at JQuery
+    Date:           July 30, 2019
+-->
+</html>

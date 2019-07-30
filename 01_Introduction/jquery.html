@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tutorial 01</title>
+    <script src="../references/jquery-3.4.1.slim.js"></script>
+</head>
+<body>
+    <h1>JQuery Tutorial</h1>
+    <div id="msg">Hello World!</div>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+            jQuery('#button').click(function() {
+                alert('jQuery Tutorial');
+            });
+        })
+
+        // $(function () {
+        //     $('#button').click(function () {
+        //         var msg = document.getElementById("msg");
+        //         msg.innerHTML = `<h2>Welcome to ME Computer</h2>`
+        //     });
+        // })
+    </script>
+    <input type="button" id="button" value="Click Me">
+</body>
+<!-- 
+    Name:           Ye Tun Aung
+    Email:          yta.megroup@gmail.com
+    Project:        Chapter 07
+    Description:    Look at JQuery
+    Date:           July 30, 2019
+-->
+</html>

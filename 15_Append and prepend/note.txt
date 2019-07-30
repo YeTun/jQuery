@@ -1,0 +1,12 @@
+Methods and Functions
+===================== 
+before()
+after()
+prepend()
+remove()
+
+$("#right").append("<h2>We REALLY need a header</h2>");
+$("#right").prepend("<h2>We REALLY need a header</h2>");
+$("#right").after("<h2>We REALLY need a header</h2>");
+$("#right").before("<h2>We REALLY need a header</h2>");
+ 

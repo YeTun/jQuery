@@ -1,0 +1,40 @@
+Methods and Functions
+===================== 
+ready() -- Wait until page is loaded
+hide()  -- Hides an element
+click() -- Creates a "click" JavaScript event
+
+Basic Selectors
+=============== 
+type        -- CSS selector
+#id         -- CSS selector
+descendant  -- CSS selector
+
+Basic Filters
+=============== 
+:first   -- JQuery selector (first element selected)
+:last    -- JQuery selector (last element selected)
+:not     -- JQuery selector (specify elements not to be selected)
+:even    -- JQuery selector (select even numbered elements)
+:odd     -- JQuery selector (select odd numbered elements)
+
+Content Filters
+=============== 
+:contains   -- JQuery selector (select element with certain text)
+:empty      -- All elements that have no children
+:has(selector)
+
+Child Filters
+=============== 
+:nth-child(expr)
+:first-child
+:last-child
+:only-child
+
+$("div:has(b)").hide();
+$("p:has(b)").hide();
+
+$("ul li:nth-child(2)").hide();
+$("body div:nth-child(2)").hide();
+
+$("li:empty").hide();

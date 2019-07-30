@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial 09</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left">
+        <h2></h2>
+        <p>This is FIRST paragraph</p>
+        <p>This is Second paragraph</p>
+    </div>
+
+    <div id="center">
+        <ul>
+            <li>Bobcats</li>
+            <li>Wildcats</li>
+        </ul>
+    </div>
+
+    <div id="right">
+        <h2></h2>
+        <p>This area will contain the <b>right content</b> area.</p>
+    </div>
+
+    <div id="test">
+        <button> Hit button to change something </button>
+    </div>
+
+    <script src="../references/jquery-3.4.1.slim.js"></script>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $("h2").text("give the H2 some text");
+            });
+        });
+    </script>
+</body>
+<!-- 
+    Name:           Ye Tun Aung
+    Email:          yta.megroup@gmail.com
+    Project:        Chapter 07
+    Description:    Look at JQuery
+    Date:           July 30, 2019
+-->
+</html>

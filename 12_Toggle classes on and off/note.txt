@@ -1,0 +1,23 @@
+Methods and Functions
+===================== 
+ready()   -- Wait until page is loaded
+hide()    -- Hides an element
+click()   -- Creates a "click" JavaScript event
+css()     -- Style your page with the CSS method
+html()    -- update content - text and html tags
+text()    -- update content - text only
+fadeOut() -- Fade out an element.  Use milliseconds for value - fadeOut("20000");
+addClass()     -- Add class to HTML element
+removeClass()  -- Remove class from HTML element
+
+("p:last").addClass("para");
+
+$("p:first").removeClass("para2");
+
+$("p:last").toggleClass("para");
+$("p:first").toggleClass("para2");
+
+$("p:last").addClass("para");
+$("p:first").removeClass("para2");
+$("p:first").toggleClass("para2");
+ 

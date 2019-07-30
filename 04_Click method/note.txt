@@ -1,0 +1,14 @@
+Methods and Functions
+===================== 
+ready() -- Wait until page is loaded
+hide()  -- Hides an element
+click() -- Creates a "click" JavaScript event
+
+Basic Selectors
+========= 
+type selector   -- CSS selector
+#id             -- CSS selector 
+ 
+$("left").hide();
+$("#right, #left").hide();
+$("div:not('#test, #center')").hide();

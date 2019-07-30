@@ -1,0 +1,21 @@
+                    It's JQuery time!!
+                    ------------------
+This video will serve as an introduction to JQuery.
+This series is an add on to what we learned in the JavaScript series.
+If you have not taken beginning JavaScript you should as its imperative you understand concepts such as the DOM.
+
+Introduction to JQuery
+- What do I need to know for this series? (JavaScript)
+- It's free open source Library!!.
+- Easy to use 
+- Feature rich
+- Cross browser compatibility
+
+JQuery uses CSS selector methods
+- Selecting DOM elements is so much easier in JQuery
+- Basic syntax: $("selector");
+    Class
+    ID 
+    Type Selector 
+    Desedant Selector
+    All the other CSS selectors

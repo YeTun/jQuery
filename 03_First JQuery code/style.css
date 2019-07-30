@@ -1,0 +1,26 @@
+#left {
+        width: 300px;
+        float: left;
+        padding: 15px;
+        margin: 10px;
+        background: #f8f8f8;
+        border: solid 2px black;       
+}
+ 
+#center {
+        width: 300px;
+        float: left;
+        padding: 15px;
+        margin: 10px;
+        background: #808080;
+        border: solid 2px black;       
+}
+ 
+#right {
+        width: 300px;
+        padding: 15px;
+        margin: 10px;
+        float: left;
+        background: #f0efef;
+        border: solid 2px black;       
+}

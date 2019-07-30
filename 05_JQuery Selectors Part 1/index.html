@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial 05</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="left">
+        <p>This is FIRST paragraph.</p>
+        <p>This is Second paragraph.</p>
+    </div>
+
+    <div id="center">
+        <p>This area will contain the center content area.</p>
+    </div>
+
+    <div id="right">
+        <p>This area will contain the right content area.</p>
+    </div>
+
+    <div id="test">
+        <button> Hit button to change something </button>
+    </div>
+
+    <script src="../references/jquery-3.4.1.slim.js"></script>
+    <script>
+        $(function () {
+            $("button").click(function () {
+                $("div:first").hide();
+            });
+        });
+    </script>
+</body>
+<!-- 
+    Name:           Ye Tun Aung
+    Email:          yta.megroup@gmail.com
+    Project:        Chapter 07
+    Description:    Look at JQuery
+    Date:           July 30, 2019
+-->
+</html>
