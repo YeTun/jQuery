@@ -12,7 +12,7 @@
             if (document.addEventListener) {
             document.getElementById('button').addEventListener('click', clickHandler, false);
             } else {
-            document.getElementById('button').attachEvent('click', clickHandler, false);
+            document.getElementById('button').attachEvent('onclick', clickHandler);
             }
         };
 
